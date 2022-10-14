@@ -1,0 +1,112 @@
+{
+  "nurses": [
+    {
+      "id": 1,
+      "name": "Research Nurse",
+      "salary": "$88,000",
+      "votes": 0
+    },
+    {
+      "id": 2,
+      "name": "Nurse Educator",
+      "salary": "$94,000",
+      "votes": 0
+    },
+    {
+      "id": 3,
+      "name": "Gerontology Nurse",
+      "salary": "$96,500",
+      "votes": 0
+    },
+    {
+      "id": 4,
+      "name": "Pain Management Nurse",
+      "salary": "$104,000",
+      "votes": 0
+    },
+    {
+      "id": 5,
+      "name": "Women's Health Nurse",
+      "salary": "$107,000",
+      "votes": 0
+    },
+    {
+      "id": 6,
+      "name": "Pediatric Nurse",
+      "salary": "$109,000",
+      "votes": 0
+    },
+    {
+      "id": 7,
+      "name": "Surgical Nurse",
+      "salary": "$109,000",
+      "votes": 0
+    },
+    {
+      "id": 8,
+      "name": "Psychiatric Nurse",
+      "salary": "$109,000",
+      "votes": 0
+    },
+    {
+      "id": 9,
+      "name": "Nurse Midwife",
+      "salary": "$113,000",
+      "votes": 0
+    },
+    {
+      "id": 10,
+      "name": "Home Care Nurse",
+      "salary": "$113,000",
+      "votes": 0
+    },
+    {
+      "id": 11,
+      "name": "Family Nurse",
+      "salary": "$113,000",
+      "votes": 0
+    },
+    {
+      "id": 12,
+      "name": "Urgent Care Nurse",
+      "salary": "$113,000",
+      "votes": 0
+    },
+    {
+      "id": 13,
+      "name": "Oncology Nurse",
+      "salary": "$113,000",
+      "votes": 0
+    },
+    {
+      "id": 14,
+      "name": "Orthopedic Nurse",
+      "salary": "$115,000",
+      "votes": 0
+    },
+    {
+      "id": 15,
+      "name": "Cardiac Nurse",
+      "salary": "$116,000",
+      "votes": 0
+    },
+    {
+      "id": 16,
+      "name": "Emergency Room Nurse",
+      "salary": "$116,000",
+      "votes": 0
+    },
+    {
+      "id": 17,
+      "name": "Neonatal Nurse ",
+      "salary": "$127,000",
+      "votes": 0
+    },
+    {
+      "id": 18,
+      "name": "Nurse Anesthetist",
+      "salary": "$189,000",
+      "votes": 0
+    }
+  ]
+}

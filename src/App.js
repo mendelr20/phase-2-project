@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 
-function App() {
+import './App.css';
+import Header from './Header';
+import Home from "./Home";
+import About from "./About";
+import Nurses from "./Nurses";
+
+export default function App() {
+  const [list, setList] = useState([])
+
+  useEffect(()=>{
+    fetch('http://localhost:3000/nurses')
+    .then(res => res.json())
+    .then(data => setList(data))
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <BrowserRouter>
+        <Route path="/">
+          <Home />
+        </Route>
+        <Route path="/About">
+          <About />
+        </Route>
+        <Route path="/Nurses">
+          <Nurses />
+        </Route>
+      </BrowserRouter>
     </div>
   );
 }
 
-export default App;
+
+
