@@ -2,7 +2,7 @@ import React from 'react'
 import ListingsContainer from './ListingsContainer'
 
 
-function NursingSpecialties({list}){
+export default function NursingSpecialties({list}){
   return (
     <div>
       <h1>Nurses</h1>
@@ -12,4 +12,3 @@ function NursingSpecialties({list}){
   )
 }
 
-export default NursingSpecialties

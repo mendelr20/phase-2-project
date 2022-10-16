@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ListingCard({nurse}) {
+export default function ListingCard({nurse}) {
     
   return (
     <div className="card">
@@ -15,4 +15,3 @@ function ListingCard({nurse}) {
   )
 }
 
-export default ListingCard

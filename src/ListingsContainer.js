@@ -1,7 +1,7 @@
 import React from 'react'
 import ListingCard from './ListingCard'
 
-const ListingsContainer = ({list}) => {
+export default function ListingsContainer({list})  {
     console.log(list)
   return (
     <div className='cards'>
@@ -10,4 +10,3 @@ const ListingsContainer = ({list}) => {
   )
 }
 
-export default ListingsContainer

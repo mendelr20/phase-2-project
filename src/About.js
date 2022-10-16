@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const About = () => {
+export default function About(){
   return (
     <div>
         <h1>About</h1>
@@ -9,11 +9,10 @@ const About = () => {
             <br/> who is my favorite person in the world, 
             <br/>the love of my life who is the best and most dedicated nurse in the world with her BSN
         </h2>
-        <img/>
+       
         
     </div>
     
   )
 }
 
-export default About
