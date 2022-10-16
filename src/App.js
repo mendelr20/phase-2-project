@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import {Route, Switch } from "react-router-dom";
 
 import './App.css';
 import Header from './Header';
+import NavBar from "./NavBar";
 import Home from "./Home";
 import About from "./About";
-import Nurses from "./Nurses";
+import NursingSpecialties from "./NursingSpecialties";
 
 export default function App() {
   const [list, setList] = useState([])
@@ -19,18 +20,18 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      
-      <BrowserRouter>
-        <Route path="/">
-          <Home />
-        </Route>
-        <Route path="/About">
-          <About />
-        </Route>
-        <Route path="/Nurses">
-          <Nurses />
-        </Route>
-      </BrowserRouter>
+      <NavBar />
+        <Switch>
+          <Route exact path="/About">
+            <About />
+          </Route>
+          <Route exact path="/NursingSpecialties">
+            <NursingSpecialties list={list}/>
+          </Route> 
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
     </div>
   );
 }

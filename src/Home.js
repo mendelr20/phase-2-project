@@ -1,10 +1,12 @@
 import React from 'react'
 
 function Home() {
-    console.log("hey there")
+   
   return (
-    <h1>Home</h1>
-    
+    <div>
+        <h1>Home</h1>
+        <h2>Welcome to the Nursing Specialty Application</h2>
+    </div>
   )
 }
 
