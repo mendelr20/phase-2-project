@@ -4,25 +4,25 @@
       "id": 1,
       "name": "Research Nurse",
       "salary": "$88,000",
-      "votes": 0
+      "votes": 5
     },
     {
       "id": 2,
       "name": "Nurse Educator",
       "salary": "$94,000",
-      "votes": 0
+      "votes": 10
     },
     {
       "id": 3,
       "name": "Gerontology Nurse",
       "salary": "$96,500",
-      "votes": 0
+      "votes": 4
     },
     {
       "id": 4,
       "name": "Pain Management Nurse",
       "salary": "$104,000",
-      "votes": 0
+      "votes": 3
     },
     {
       "id": 5,
@@ -46,7 +46,7 @@
       "id": 8,
       "name": "Psychiatric Nurse",
       "salary": "$109,000",
-      "votes": 0
+      "votes": 4
     },
     {
       "id": 9,
