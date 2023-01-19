@@ -7,9 +7,11 @@ import NavBar from "./NavBar";
 import Home from "./Home";
 import About from "./About";
 import Nurses from "./Nurses";
+import NewNurse from "./NewNurse";
 
 export default function App() {
   const [list, setList] = useState([])
+  console.log(list)
 
   useEffect(()=>{
     fetch('http://localhost:3000/nurses')
@@ -42,6 +44,9 @@ export default function App() {
           <Route exact path="/Nurses">
             <Nurses list={list} voteCallback={voteCallback}/>
           </Route> 
+          <Route exact path="/NewNurse">
+            <NewNurse/>
+          </Route>
           <Route exact path="/">
             <Home />
           </Route>
