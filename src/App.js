@@ -11,13 +11,18 @@ import NewNurse from "./NewNurse";
 
 export default function App() {
   const [list, setList] = useState([])
-  console.log(list)
 
+  function addNurse(newNurse){
+    setList([...list, newNurse])
+  }
+ 
+  
   useEffect(()=>{
     fetch('http://localhost:3000/nurses')
     .then(res => res.json())
     .then(data => setList(data))
-  })
+  },[])
+  
 
   function voteCallback(nurse){
       fetch(`http://localhost:3000/nurses/${nurse.id}`, {
@@ -45,7 +50,7 @@ export default function App() {
             <Nurses list={list} voteCallback={voteCallback}/>
           </Route> 
           <Route exact path="/NewNurse">
-            <NewNurse/>
+            <NewNurse addNurse={addNurse}/>
           </Route>
           <Route exact path="/">
             <Home />
@@ -57,4 +62,3 @@ export default function App() {
 
 
 
-// Why the Dom resets
