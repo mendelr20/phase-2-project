@@ -10,21 +10,29 @@ import Nurses from "./Nurses";
 import NewNurse from "./NewNurse";
 
 export default function App() {
-  const [list, setList] = useState([])
+  const [nurseList, setNurseList] = useState([])
 
   function addNurse(newNurse){
-    setList([...list, newNurse])
+    setNurseList([...nurseList, newNurse])
   }
- 
+  
+  function updateVoteState(nurse){
+    //const updatedNurseList = nurseList.filter(nur => nurse.id !== nur.id)
+    const updatedNurseList = nurseList.findIndex((nur => nurse.id == 1));
+    setNurseList([nurse, ...updatedNurseList])
+    // styling event
+    //use map to keep everything in the same order as started 
+
+  }
   
   useEffect(()=>{
     fetch('http://localhost:3000/nurses')
     .then(res => res.json())
-    .then(data => setList(data))
+    .then(data => setNurseList(data))
   },[])
   
 
-  function voteCallback(nurse){
+  function addVote(nurse){
       fetch(`http://localhost:3000/nurses/${nurse.id}`, {
         method: "PATCH",
         headers: {
@@ -35,7 +43,7 @@ export default function App() {
         }),
       })
         .then((r) => r.json())
-        .then((r) => console.log(r));
+        .then((nurse) => updateVoteState(nurse));
   }
   
   return (
@@ -47,7 +55,7 @@ export default function App() {
             <About />
           </Route>
           <Route exact path="/Nurses">
-            <Nurses list={list} voteCallback={voteCallback}/>
+            <Nurses nurseList={nurseList} addVote={addVote}/>
           </Route> 
           <Route exact path="/NewNurse">
             <NewNurse addNurse={addNurse}/>

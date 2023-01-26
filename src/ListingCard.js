@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function ListingCard({nurse, voteCallback}) {
+export default function ListingCard({nurse, addVote}) {
   function voteClick(){
-    voteCallback(nurse)
+    addVote(nurse)
   }
   return (
     <div className="card" key={nurse.id}>

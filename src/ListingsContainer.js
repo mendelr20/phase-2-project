@@ -1,12 +1,12 @@
 import React from 'react'
 import ListingCard from './ListingCard'
 
-export default function ListingsContainer({list, voteCallback})  {
+export default function ListingsContainer({nurseList,addVote})  {
 
   
   return (
     <div className='cards'>
-        {list.map((nurse) => <ListingCard nurse={nurse} voteCallback={voteCallback} />)}
+        {nurseList.map((nurse) => <ListingCard nurse={nurse} addVote={addVote} />)}
     </div>
   )
 }
