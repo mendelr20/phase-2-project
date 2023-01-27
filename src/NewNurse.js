@@ -41,14 +41,20 @@ export default function NewNurse({addNurse}) {
   return (
     <div>
       <h1>New Nurse Form</h1>
-      <h2>Click here to add a nurse that is not on the list to this application</h2>
-      <form onSubmit={handleSubmit}>
-        Nurse Name
-        <input type="text" onChange={handleNameChange} placeholder="Input Nurse Name" />
-        Nurse Salary
-        <input type="text" onChange={handleSalaryChange}  placeholder="Input Nurse Salary"/>
-        <button type="submit">Submit</button>
-        </form>
+      <h2>Add a nurse that is not on the list to this application</h2>
+      <form class="ui form" onSubmit={handleSubmit}>
+        <div class="two fields">
+          <div class="field">
+            Nurse Name
+            <input type="text" onChange={handleNameChange} placeholder="Input Nurse Name" />
+          </div>
+          <div class="field">
+            Nurse Salary
+            <input type="text" onChange={handleSalaryChange}  placeholder="Input Nurse Salary"/>
+          </div>
+        </div>
+        <button class="ui button" type="submit">Submit</button>
+      </form>
     </div>
   );
 }

@@ -4,7 +4,10 @@ import React from 'react'
 export default function About(){
   return (
     <div>
-        <h1>About</h1>
+        <h1>
+          <i class="info circle icon"></i>
+          About
+        </h1>
         <h2>This application was created in honor of my fiancé, Shaina 
             <br/>Update - this project was started right after shaina said yes.
             <br/>As of 1.11.23 i become the luckiest man alive ever and get to call Shaina my wife forever

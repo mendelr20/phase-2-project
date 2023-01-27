@@ -3,26 +3,26 @@
     {
       "name": "Research Nurse",
       "salary": "$88,000",
-      "votes": 104,
+      "votes": 115,
       "id": 1
     },
     {
       "name": "Nurse Educator",
       "salary": "$94,000",
-      "votes": 56,
+      "votes": 61,
       "id": 2
     },
     {
       "name": "Gerontology Nurse",
       "salary": "$96,500",
-      "votes": 16,
+      "votes": 19,
       "id": 3
     },
     {
       "id": 4,
       "name": "Pain Management Nurse",
       "salary": "$104,000",
-      "votes": 5
+      "votes": 7
     },
     {
       "id": 5,
@@ -131,6 +131,42 @@
       "salary": "1,0000,000",
       "votes": 1,
       "id": 22
+    },
+    {
+      "name": "",
+      "salary": "",
+      "votes": 0,
+      "id": 23
+    },
+    {
+      "name": "",
+      "salary": "",
+      "votes": 0,
+      "id": 24
+    },
+    {
+      "name": "",
+      "salary": "",
+      "votes": 0,
+      "id": 25
+    },
+    {
+      "name": "",
+      "salary": "",
+      "votes": 0,
+      "id": 26
+    },
+    {
+      "name": "",
+      "salary": "",
+      "votes": 0,
+      "id": 27
+    },
+    {
+      "name": "",
+      "salary": "",
+      "votes": 0,
+      "id": 28
     }
   ]
 }
