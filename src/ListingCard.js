@@ -5,15 +5,28 @@ export default function ListingCard({nurse, addVote}) {
     addVote(nurse)
   }
   return (
-    <div className="card" key={nurse.id}>
-        {nurse.name}
-        <p/>
-        Salary: {nurse.salary}
-        <p/>
-        Votes: {nurse.votes}
-        <p/>
-        <button onClick={() => voteClick(nurse)}>Vote</button>
+    <div>
+        <div class="ui card" key={nurse.id}>
+          <div class="content">
+            <a class="header">{nurse.name}</a>
+            <div class="description">
+              Salary: {nurse.salary}
+            </div>
+            <i class="user icon"></i>
+              Votes: {nurse.votes}
+          </div>
+          <div class="extra content">
+            <a>
+            <button class="ui basic button" onClick={() => voteClick(nurse)}>
+              <i class="icon user"></i>
+              Vote
+              </button>
+              
+            </a>
+          </div>
+        </div>
     </div>
+    
   )
 }
 

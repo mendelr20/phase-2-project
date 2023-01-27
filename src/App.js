@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {Route, Switch } from "react-router-dom";
-
+import "semantic-ui-css/semantic.min.css"
 import './App.css';
 import Header from './Header';
 import NavBar from "./NavBar";
@@ -17,8 +17,8 @@ export default function App() {
   }
   
   function updateVoteState(nurse){
-    //const updatedNurseList = nurseList.filter(nur => nurse.id !== nur.id)
-    const updatedNurseList = nurseList.findIndex((nur => nurse.id == 1));
+    const updatedNurseList = nurseList.filter(nur => nurse.id !== nur.id)
+    // const updatedNurseList = nurseList.findIndex((nur => nurse.id == 1));
     setNurseList([nurse, ...updatedNurseList])
     // styling event
     //use map to keep everything in the same order as started 

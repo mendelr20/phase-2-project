@@ -5,7 +5,7 @@ export default function ListingsContainer({nurseList,addVote})  {
 
   
   return (
-    <div className='cards'>
+    <div className='ui cards'>
         {nurseList.map((nurse) => <ListingCard nurse={nurse} addVote={addVote} />)}
     </div>
   )

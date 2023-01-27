@@ -8,6 +8,7 @@ export default function NursingSpecialties({nurseList, addVote}){
     <div>
       <h1>Nurses</h1>
       <NavLink to="/NewNurse">New Nurse</NavLink>
+      <h1></h1>
       <ListingsContainer nurseList={nurseList} addVote={addVote} />
       
     </div>
