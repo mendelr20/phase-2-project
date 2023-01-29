@@ -1,6 +1,4 @@
-# Nurses / Nursing Salary Application
 # About This Project
-
 
 ## Description
 
