@@ -3,170 +3,110 @@
     {
       "name": "Research Nurse",
       "salary": "$88,000",
-      "votes": 115,
+      "likes": 138,
       "id": 1
     },
     {
       "name": "Nurse Educator",
       "salary": "$94,000",
-      "votes": 61,
+      "likes": 75,
       "id": 2
     },
     {
       "name": "Gerontology Nurse",
       "salary": "$96,500",
-      "votes": 19,
+      "likes": 30,
       "id": 3
     },
     {
       "id": 4,
       "name": "Pain Management Nurse",
       "salary": "$104,000",
-      "votes": 7
+      "likes": 7
     },
     {
       "id": 5,
       "name": "Women's Health Nurse",
       "salary": "$107,000",
-      "votes": 9
+      "likes": 9
     },
     {
       "id": 6,
       "name": "Pediatric Nurse",
       "salary": "$109,000",
-      "votes": 1
+      "likes": 1
     },
     {
       "id": 7,
       "name": "Surgical Nurse",
       "salary": "$109,000",
-      "votes": 7
+      "likes": 7
     },
     {
       "id": 8,
       "name": "Psychiatric Nurse",
       "salary": "$109,000",
-      "votes": 5
+      "likes": 5
     },
     {
       "id": 9,
       "name": "Nurse Midwife",
       "salary": "$113,000",
-      "votes": 1
+      "likes": 1
     },
     {
       "id": 10,
       "name": "Home Care Nurse",
       "salary": "$113,000",
-      "votes": 1
+      "likes": 1
     },
     {
       "id": 11,
       "name": "Family Nurse",
       "salary": "$113,000",
-      "votes": 1
+      "likes": 1
     },
     {
       "id": 12,
       "name": "Urgent Care Nurse",
       "salary": "$113,000",
-      "votes": 1
+      "likes": 1
     },
     {
       "id": 13,
       "name": "Oncology Nurse",
       "salary": "$113,000",
-      "votes": 4
+      "likes": 4
     },
     {
       "id": 14,
       "name": "Orthopedic Nurse",
       "salary": "$115,000",
-      "votes": 4
+      "likes": 4
     },
     {
       "id": 15,
       "name": "Cardiac Nurse",
       "salary": "$116,000",
-      "votes": 4
+      "likes": 4
     },
     {
       "id": 16,
       "name": "Emergency Room Nurse",
       "salary": "$116,000",
-      "votes": 3
+      "likes": 3
     },
     {
       "id": 17,
       "name": "Neonatal Nurse ",
       "salary": "$127,000",
-      "votes": 2
+      "likes": 2
     },
     {
       "id": 18,
       "name": "Nurse Anesthetist",
       "salary": "$189,000",
-      "votes": 3
-    },
-    {
-      "name": "test123",
-      "salary": "test123",
-      "votes": 0,
-      "id": 19
-    },
-    {
-      "name": "test111",
-      "salary": "test1111",
-      "votes": 0,
-      "id": 20
-    },
-    {
-      "name": "Test",
-      "salary": "Test",
-      "votes": 1,
-      "id": 21
-    },
-    {
-      "name": "mendel",
-      "salary": "1,0000,000",
-      "votes": 1,
-      "id": 22
-    },
-    {
-      "name": "",
-      "salary": "",
-      "votes": 0,
-      "id": 23
-    },
-    {
-      "name": "",
-      "salary": "",
-      "votes": 0,
-      "id": 24
-    },
-    {
-      "name": "",
-      "salary": "",
-      "votes": 0,
-      "id": 25
-    },
-    {
-      "name": "",
-      "salary": "",
-      "votes": 0,
-      "id": 26
-    },
-    {
-      "name": "",
-      "salary": "",
-      "votes": 0,
-      "id": 27
-    },
-    {
-      "name": "",
-      "salary": "",
-      "votes": 0,
-      "id": 28
+      "likes": 3
     }
   ]
 }

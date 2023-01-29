@@ -2,7 +2,7 @@ import React from 'react'
 import ListingsContainer from './ListingsContainer'
 import { NavLink } from "react-router-dom";
 
-export default function NursingSpecialties({nurseList, addVote}){
+export default function NursingSpecialties({nurseList, addLike}){
   
   return (
     <div>
@@ -17,7 +17,7 @@ export default function NursingSpecialties({nurseList, addVote}){
       </button>
       
       <h1></h1>
-      <ListingsContainer nurseList={nurseList} addVote={addVote} />
+      <ListingsContainer nurseList={nurseList} addLike={addLike} />
       
     </div>
   )

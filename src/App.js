@@ -32,14 +32,14 @@ export default function App() {
   },[])
   
 
-  function addVote(nurse){
+  function addLike(nurse){
       fetch(`http://localhost:3000/nurses/${nurse.id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          "votes": nurse.votes + 1,
+          "likes": nurse.likes + 1,
         }),
       })
         .then((r) => r.json())
@@ -55,7 +55,7 @@ export default function App() {
             <About />
           </Route>
           <Route exact path="/Nurses">
-            <Nurses nurseList={nurseList} addVote={addVote}/>
+            <Nurses nurseList={nurseList} addLike={addLike}/>
           </Route> 
           <Route exact path="/NewNurse">
             <NewNurse addNurse={addNurse}/>

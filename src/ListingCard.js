@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function ListingCard({nurse, addVote}) {
-  function voteClick(){
-    addVote(nurse)
+export default function ListingCard({nurse, addLike}) {
+  function likeClick(){
+    addLike(nurse)
   }
   return (
     <div>
@@ -13,13 +13,13 @@ export default function ListingCard({nurse, addVote}) {
               Salary: {nurse.salary}
             </div>
             <i class="user icon"></i>
-              Votes: {nurse.votes}
+              Likes: {nurse.likes}
           </div>
           <div class="extra content">
             <a>
-            <button class="ui basic button" onClick={() => voteClick(nurse)}>
-              <i class="icon user"></i>
-              Vote
+            <button class="ui basic button" onClick={() => likeClick(nurse)}>
+              <i class="like basic icon"></i>
+              Like
               </button>
               
             </a>
