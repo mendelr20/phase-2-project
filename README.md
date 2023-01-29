@@ -2,8 +2,8 @@
 
 ## Description
 
-EMS Drugs / Medication Application is a JavaScript application that uses all the drugs / medications from the NMETC (National Medical Education & Training Center Inc) Paramedic program which i am currently attending. In the application, the user can view a brief description of why the application was created and why i believe it is important as well as a list of all the drugs which are able to be searched for in a search bar. In the list of drugs each drugs is clickable, when a drug is clicked it will bring up all the information for that drug including the name, class, mechanism of action, indications, contraindications, adverse reactions, drug interactions, adult dosage, pediatric dosage, duration of action, and special considerations.
-
+This Nurses Application is a JavaScript application built with a React Framework and styled with Semantic-UI that takes a list of the most commonly found Nurses and their average salary in the USA.
+In the list of Nurses each Nurse has a like button that is clickable, when the like button is clicked it will increase the like count by 1. There is a new Nurse button on the nurses page that when clicked it will generate a form where you can input the nurses name and the average salary and it will start off with a like count of 0 and it will be added to the the end of the nurses list. a
 <br />
 
 ## Contributors
