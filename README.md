@@ -18,7 +18,6 @@ This project was built with the following:
 - [React](https://reactjs.org/)
 - [Semantic UI](https://react.semantic-ui.com/) 
 - [JSON-server Auth](https://www.npmjs.com/package/json-server-auth)
-<br />
 
 ## Installation
 
