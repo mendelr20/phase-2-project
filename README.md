@@ -11,23 +11,16 @@ EMS Drugs / Medication Application is a JavaScript application that uses all the
 ## Contributors
 **Mendel Rosenblum**
 <br />
-github: [mendelrosenblum](https://github.com/mendelr20)
+github: [mendelr20](https://github.com/mendelr20)
 <br />
-email: [Rosenblummm@gmail.com
+email: RosenblumMM@gmail.com
 
 ## Built With
 This project was built with the following:
 - [React](https://reactjs.org/)
-- [Semantic UI](https://react.semantic-ui.com/) (CSS)
+- [Semantic UI](https://react.semantic-ui.com/) 
 - [JSON-server Auth](https://www.npmjs.com/package/json-server-auth)
 <br />
-
-## Getting Started
-In order to set up this project locally, you will need to install and launch JSON-server and JSON-server Auth, and access our backend database [here](https://github.com/clogan1/dunderlist-backend). To start the server & server auth, use the following in CLI:
-```json-server db.json -m ./node_modules/json-server-auth```
-
-
-
 
 ## Installation
 
