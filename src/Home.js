@@ -9,6 +9,13 @@ export default function Home() {
           Home
         </h1>
         <h2>Welcome to the Nursing Specialty Application</h2>
+        <br/>
+        <br/>
+        <i class="massive stethoscope icon"></i>
+        <i class="massive syringe icon"></i>
+        <i class="massive pills icon"></i>
+        <br/>
+        <br/>
         <h3>
           <i class="chat outline icon"></i>
           Contact Information:
