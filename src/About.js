@@ -20,7 +20,7 @@ export default function About(){
             One of the key features of my application is its ability to provide information on the average salary for different nursing specialties. This is important because it highlights the hard work and dedication of nurses and helps to demonstrate that they deserve more compensation for their efforts. Nurses play a vital role in the healthcare system, and their contributions should be recognized and rewarded.
           </p>
           <p>
-            If a nurse is not already on the application, they can easily be added by visiting the nursing page and clicking the 'New Nurse' button. This will allow more nurses to be recognized and their contributions to be celebrated. Visitors to the application can also vote for their favorite nurse by clicking the 'Vote' button at the bottom of the nurse's profile.
+            If a nurse is not already on the application, they can easily be added by visiting the nursing page and clicking the 'New Nurse' button. This will allow more nurses to be recognized and their contributions to be celebrated. Visitors to the application can also vote for their favorite nurse by clicking the 'Like' button at the bottom of the nurse's profile.
           </p>
           <p>
             Thank you for visiting my project, and I hope that you will join me in celebrating the amazing work of nurses everywhere. Together, we can make a difference in the lives of those who need it most.
