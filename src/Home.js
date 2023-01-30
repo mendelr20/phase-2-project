@@ -23,15 +23,15 @@ export default function Home() {
           <br/>
             <h5>
               <i class="user icon"></i>
-              Mendel Rosenblum
+              <a href='https://github.com/mendelr20'>Mendel Rosenblum</a>
               <br/>
               <br/>
               <i class="phone icon"></i>
-              Number: 973-650-4936
+              <a href="tel:973-650-4936">Number: 973-650-4936</a>
               <br/>
               <br/>
               <i class="mail outline icon"></i>
-              Email: Rosenblummm@gmail.com
+              <a href="mailto:rosenblummm@gmail.com">Email: Rosenblummm@gmail.com</a>
             </h5>
           <h3/>
         </h3>
