@@ -32,6 +32,3 @@ To get started, type ```json-server --watch db.json``` in the terminal to start 
 Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change. 
 
 
-
-![Application GIF](video4774239441.mp4)
-
