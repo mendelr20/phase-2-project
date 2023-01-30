@@ -16,14 +16,12 @@ export default function App() {
     setNurseList([...nurseList, newNurse])
   }
   
-  function updateVoteState(nurse){
-    const updatedNurseList = nurseList.filter(nur => nurse.id !== nur.id)
-    // const updatedNurseList = nurseList.findIndex((nur => nurse.id == 1));
-    setNurseList([nurse, ...updatedNurseList])
-    // styling event
-    //use map to keep everything in the same order as started 
+  function updateVoteState(nurse) {
+    const index = nurseList.findIndex(nur => nurse.id === nur.id)
+    const updatedNurseList = [...nurseList.slice(0, index), nurse, ...nurseList.slice(index + 1),]
 
-  }
+    setNurseList(updatedNurseList)
+}
   
   useEffect(()=>{
     fetch('http://localhost:3000/nurses')
