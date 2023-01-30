@@ -33,5 +33,5 @@ Pull requests are welcome. For major changes, open an issue first to discuss wha
 
 ## GIF of the application
 
-![Application GIF](app.gif)
+![Application GIF](video4774239441.mp4)
 
