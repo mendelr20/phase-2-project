@@ -1,9 +1,9 @@
 # About This Project
 
 ## Description
+A JavaScript application built with React framework and styled with Semantic-UI that displays a list of commonly found Nurses and their average salary in the USA. Upon opening the application, users will be brought to the home page which displays the landing page and contact information with clickable links. The name link leads to the Github profile, the email link auto-starts an email, and the phone number link auto-dials the number. The application also includes an About page with information on the inspiration and reasoning behind its creation.
 
-This Nurses Application is a JavaScript application built with a React Framework and styled with Semantic-UI that takes a list of the most commonly found Nurses and their average salary in the USA.
-In the list of Nurses each Nurse has a like button that is clickable, when the like button is clicked it will increase the like count by 1. There is a new Nurse button on the nurses page that when clicked it will generate a form where you can input the nurses name and the average salary and it will start off with a like count of 0 and it will be added to the the end of the nurses list. a
+The Nurses page displays a list of Nurses retrieved from a JSON server running in the background. Each Nurse in the list is clickable and users can increase the like count for each Nurse by clicking the like button. There is also a form for adding new Nurses, which starts with a like count of 0 and is added to the end of the list.
 <br />
 
 ## Contributors
