@@ -46,11 +46,11 @@ export default function NewNurse({addNurse}) {
         <div class="two fields">
           <div class="field">
             Nurse Name
-            <input type="text" onChange={handleNameChange} placeholder="Input Nurse Name" />
+            <input type="text" onChange={handleNameChange} placeholder="Input Nurse Name" value={nurseName} />
           </div>
           <div class="field">
             Nurse Salary
-            <input type="text" onChange={handleSalaryChange}  placeholder="Input Nurse Salary"/>
+            <input type="text" onChange={handleSalaryChange}  placeholder="Input Nurse Salary" value={nurseSalary}/>
           </div>
         </div>
         <button class="ui button" type="submit">Submit</button>

@@ -3,7 +3,7 @@
     {
       "name": "Research Nurse",
       "salary": "$88,000",
-      "likes": 155,
+      "likes": 161,
       "id": 1
     },
     {
@@ -106,6 +106,13 @@
       "id": 18,
       "name": "Nurse Anesthetist",
       "salary": "$189,000",
+      "likes": 3
+    },
+    {
+      "name": "Test",
+      "salary": "Test",
+      "votes": 0,
+      "id": 19,
       "likes": 3
     }
   ]
