@@ -29,7 +29,7 @@ To get started, run ```npm install``` to install our dependencies.
 
 Then, run ```json-server --watch db.json``` to start up the json-server.
 
-In another tab, run ```npm start``` to start up our React app at http://localhost:3000.
+In another tab, run ```npm start``` to start up our React app.
 
 ## Contribution
 
