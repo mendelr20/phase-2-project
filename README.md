@@ -25,7 +25,11 @@ To install, fork and clone this repository. Once you've cloned this repository i
 
 ## Usage
 
-To get started, type ```json-server --watch db.json``` in the terminal to start up the server, then type ```open index.html``` (for macOS) or ```explorer.exe``` (for Windows OS). The web application will load to the home page of the application. 
+To get started, run ```npm install``` to install our dependencies.
+
+Then, run ```json-server --watch db.json``` to start up the json-server.
+
+In another tab, run ```npm start``` to start up our React app at http://localhost:3000.
 
 ## Contribution
 
