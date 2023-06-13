@@ -12,8 +12,6 @@ export default function NewNurse({addNurse}) {
     salary: nurseSalary,
     votes: 0
   };
-
-  console.log(formData)
   
   const configurationObject = {
     method: "POST",

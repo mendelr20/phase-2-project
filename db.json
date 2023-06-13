@@ -3,19 +3,19 @@
     {
       "name": "Research Nurse",
       "salary": "$88,000",
-      "likes": 161,
+      "likes": 168,
       "id": 1
     },
     {
       "name": "Nurse Educator",
       "salary": "$94,000",
-      "likes": 88,
+      "likes": 113,
       "id": 2
     },
     {
       "name": "Gerontology Nurse",
       "salary": "$96,500",
-      "likes": 33,
+      "likes": 37,
       "id": 3
     },
     {
@@ -82,7 +82,7 @@
       "id": 14,
       "name": "Orthopedic Nurse",
       "salary": "$115,000",
-      "likes": 4
+      "likes": 11
     },
     {
       "id": 15,
@@ -109,11 +109,10 @@
       "likes": 3
     },
     {
-      "name": "Test",
-      "salary": "Test",
+      "name": "Endo Nurse",
+      "salary": "163,00",
       "votes": 0,
-      "id": 19,
-      "likes": 3
+      "id": 19
     }
   ]
 }

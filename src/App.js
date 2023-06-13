@@ -8,7 +8,15 @@ import Home from "./Home";
 import About from "./About";
 import Nurses from "./Nurses";
 import NewNurse from "./NewNurse";
+import Counter from "./Counter";
 
+//useEffect
+
+//state
+//prop
+//talk code outloud
+
+//paired programing 
 export default function App() {
   const [nurseList, setNurseList] = useState([])
 
@@ -19,7 +27,6 @@ export default function App() {
   function updateVoteState(nurse) {
     const index = nurseList.findIndex(nur => nurse.id === nur.id)
     const updatedNurseList = [...nurseList.slice(0, index), nurse, ...nurseList.slice(index + 1),]
-
     setNurseList(updatedNurseList)
 }
   
@@ -57,6 +64,9 @@ export default function App() {
           </Route> 
           <Route exact path="/NewNurse">
             <NewNurse addNurse={addNurse}/>
+          </Route>
+          <Route exact path="/Counter">
+            <Counter/>
           </Route>
           <Route exact path="/">
             <Home />

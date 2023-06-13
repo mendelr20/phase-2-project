@@ -15,8 +15,6 @@ export default function NursingSpecialties({nurseList, addLike}){
         <i class="stethoscope icon"></i>
         <NavLink to="/NewNurse">New Nurse</NavLink>
       </button>
-      
-      <h1></h1>
       <ListingsContainer nurseList={nurseList} addLike={addLike} />
       
     </div>
